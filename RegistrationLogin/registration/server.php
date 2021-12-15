@@ -9,7 +9,7 @@ $salasna="";
 $virheet=array();
 
 //rekistöröiminen
-$yhteys = mysqli_connect('localhost','root','','oppimistehtava');
+$yhteys = mysqli_connect("");
 
 if (isset($_POST['nappula'])) {
     
